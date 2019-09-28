@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie|Poiret+One|Special+Elite|Turret+Road&display=swap');
+
+/*Below the list of fonts I can use because already imported above*/
+/* 
+
+    font-family: 'Turret Road', cursive;
+
+    font-family: 'Cookie', cursive;
+
+    font-family: 'Poiret One', cursive;
+
+    font-family: 'Special Elite', cursive;
+
+*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3vh;
+
+}
+
+nav ul{
+    list-style: none; /* dont display bullet points */
+}
+
+nav ul li{
+    display: inline-block; /* do not display a line under anchor links text*/
+    margin-right: 3vh;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color: lightseagreen;
+    font-size: 3vh;
+    font-family: 'Turret Road', cursive;
+}
+
+/* */

@@ -1,0 +1,40 @@
+@import "https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield&display=swap";
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Turret+Road|Vibes&display=swap');
+ 
+/*Below the list of fonts I can use because already imported above*/
+/* font-family: 'Mrs Saint Delafield', cursive; */
+/* font-family: 'Vibes', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Turret Road', cursive; */
+
+/* Monica Valencia Ocampo */
+header h1{
+    margin:0 auto;
+    color: white;
+    padding-top: 18vh;
+    text-align: center;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 12vh;
+}
+
+/* Junior Software Developer */
+h3{
+    margin:0 auto;
+    font-size: 2rem;
+    color: white;
+    padding-top: 1vh;
+    text-align: center;
+    font-family: 'Turret Road', cursive;
+}
+
+/* Wave image background */
+header{
+    background-image: url("C:\Users\MONIK\Desktop\projects\react\aportfolio\src\img\bgImg.png");
+    height: 80vh;
+    background-color: lightseagreen;
+    background-size: cover;
+    background-repeat: 'no-repeat';
+    background-position: bottom; /*This changes the wave flow in the image */
+}
+
+/* */

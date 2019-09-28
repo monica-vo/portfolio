@@ -1,20 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Navigation from './Navigation';
+import Header from './Header';
+
 import './App.css';
-import NavBar from './NavBar';
-import Middle from './Middle';
-import Right from './Right';
-import Footer from './Footer';
 
-function App() {
-  return (
-    <div className="App">
-     <NavBar/>
-     <Middle/>
-     <Right/>
-     <Footer/>
+class App extends Component {
+    render() {
+        return (
+            <div className="App">
+                <Navigation />
+                <Header/>
+            </div>
+        );
+    }
 
-    </div>
-  );
 }
 
 export default App;
